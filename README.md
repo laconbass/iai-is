@@ -1,6 +1,8 @@
 iai-is
 ======
 
+`Object.prototype.string` based typechecks and some extra *'whatever is *'* check functions.
+
 License
 =======
 
