@@ -6,7 +6,7 @@ iai-is
 License
 =======
 
-Copyright (c) 2013, Lorenzo García Rivera <lorenzogrv(at)gmail.com>
+Copyright (c) 2013, Lorenzo García Rivera <lorenzogrv(at)gmail(dot)com>
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
