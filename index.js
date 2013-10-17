@@ -27,11 +27,11 @@ function is( type ){
  * @param path: the path to be checked
  */
 
-is.AbsolutePath = function isAbsolute( path ) {
-  if ( '/' == path[0] ) {
+is.AbsolutePath = function isAbsolute( path ){
+  if( '/' == path[0] ){
     return true;
   }
-  if ( ':' == path[1] && '\\' == path[2] ) {
+  if( ':' == path[1] && '\\' == path[2] ){
     return true;
   }
   return false;
@@ -46,4 +46,11 @@ is.AbsolutePath = function isAbsolute( path ) {
 is.Number = function isNumber( o ) {
     o = ( String( o ) ).replace( /,/g, '.' );
     return !isNaN( parseFloat( o ) ) && isFinite( o );
+};
+
+/**
+ * Tells whatever given object is a require.js module
+ */
+is.Module = function isModule( o ){
+  return !!o && !!o.require && !!o.filename;
 };
