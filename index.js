@@ -17,6 +17,17 @@ function is( type ){
   };
 }
 
+is.String = is( 'String' );
+is.Fn = is( 'Function' );
+
+/**
+ * Tells whatever object is a "literal" object
+ */
+
+is.Literal = function isLiteral( o ){
+  return "object" == typeof o && o.constructor === Object;
+};
+
 /**
  * Tells whatever `path` is absolute
  *
