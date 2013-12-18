@@ -1,13 +1,14 @@
 {
   "name": "iai-is",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Object.prototype.string based typechecks + extra 'whatever is *' check functions",
   "author": "Lorenzo García Rivera",
   "license": "BSD-2-Clause",
   "main": "lib/index.js",
   "files": [
     "lib",
-    "LICENSE"
+    "LICENSE",
+    "README.md"
   ],
   "repository": {
     "type": "git",
