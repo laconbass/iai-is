@@ -29,8 +29,17 @@ var true_cases = {
 };
 
 var false_cases = {
+  "undefined": undefined,
+  "null": null,
+  "array": [],
+  "object": {},
+  "date": new Date(),
+  "function": function(){},
+  "boolean true": true,
+  "boolean false": false,
   "unix relative path": "foo/bar",
   "unix relative path leading dot": "./foo/bar",
   "unix relative path leading dot double": "../foo/bar",
   "windows relative path": "foo\\bar"
-};
+};
+
