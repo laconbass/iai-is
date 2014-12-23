@@ -7,6 +7,10 @@ describe( "is", function(){
     assert.isFunction( is );
   })
 
+  it( "should provide toString", function(){
+    assert.equal( is+'', '[iai-is module]' );
+  })
+
   describe("is(type)", function(){
     it( "should return a function when called", function(){
       assert.isFunction( is('something') );
